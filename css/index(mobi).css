@@ -1,0 +1,254 @@
+body {
+  font-family: Libre Franklin;
+  margin: 0;
+}
+
+header {
+  position: static;
+  top: 0;
+  color: #FFFAF2;
+  background-image: url(/img/header_img.png);
+  background-size: cover;
+  padding: 2% 5%;
+  height: 70vh;
+}
+
+.headernav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 1vh 4vw;
+}
+
+#logo {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.09px;
+}
+
+.menu {
+  font-size: 18px;
+  line-height: 21.82px;
+}
+
+.menu ul {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+}
+
+.menu ul li {
+  padding-left: 5vw;
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #FFFAF2;
+}
+
+.title {
+  padding: 10vh 4vw;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 77.57px;
+}
+
+.title a {
+  font-size: 24px;
+  line-height: 29.09px;
+}
+
+.main_part {
+  padding: 8vh 8vw 16vh;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 29.09px;
+  padding-bottom: 4vh;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  padding-bottom: 1vh;
+}
+
+#main_skills {
+  background-color: #FFFAF2;
+}
+
+.skills_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skills_content div {
+  width: 100%;
+}
+
+#face {
+  margin-right: 5vw;
+}
+
+#face img {
+  width: 20vw;
+}
+
+.names_skill h3:first-child {
+  padding-bottom: 5vh;
+}
+
+.names_skill h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.value_skill * {
+  display: block;
+  margin: 2vh 0 0 0;
+}
+
+.value_skill a {
+  height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.value_skill a:first-child {
+  padding-bottom: 5vh;
+}
+
+h3 {
+  margin: 2vh 0 0 0;
+  line-height: 25px;
+}
+
+progress {
+  height: 24px;
+  width: 100%;
+  -webkit-appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: rgb(236, 215, 175);
+}
+
+progress::-webkit-progress-value {
+  background-color: rgba(255, 162, 0, 0.5);
+}
+
+.portfolio_conteiner {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.description h3 {
+  padding-bottom: 2vh;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.description a {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+#portfolio_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#change_portfolio {
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery img {
+  width: 35vw;
+}
+
+.but {
+  font-family: Segoe MDL2 Assets;
+  font-size: 24px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #333333;
+  cursor: pointer;
+}
+
+footer {
+  height: 40vh;
+  background-color: #FFFAF2;
+  padding: 8vh 8vw;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.contacts div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding-bottom: 3vh;
+}
+
+.contacts div:not(div:last-child) {
+  padding-right: 25vw;
+}
+
+.contacts a {
+  font-size: 18px;
+  line-height: 21.82px;
+  padding-bottom: 1vh;
+}
+
+#button_up {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.carousel {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  height: 100%;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+}
+
+.carousel_1 {
+  position: relative;
+  width: 35vw;
+  overflow: hidden;
+}
+
+.carousel-inner_1 {
+  display: flex;
+  height: 100%;
+}/*# sourceMappingURL=index(mobi).css.map */

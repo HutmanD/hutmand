@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link media="only screen and (max-width: 1920px)" rel="stylesheet" href="css/index(for_pc).css">
+    <link media="only screen and (max-width: 800px)" rel="stylesheet" href="css/index(mobile).css">
+</head>
+<body>
+    <header>
+        <div class="menu_mobi">
+            <div>
+                <ul>
+                    <li><a href="#main_about">About</a></li>
+                    <li><a href="#main_skills">Skills</a></li>
+                    <li><a href="#main_portfolio">Portfolio</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                </ul>
+            </div>
+            <a id="menu_mobile"></a>
+        </div>
+        <div class="headernav_mobile">
+            <div>
+                <a id="logo">Portfolio</a>
+            </div>
+        </div>
+        <div class="headernav_pc">
+            <a id="logo">Portfolio</a>
+            <nav class="menu">
+                <ul>
+                    <li><a>Home</a></li>
+                    <li><a href="#main_about">About</a></li>
+                    <li><a href="#main_skills">Skills</a></li>
+                    <li><a href="#main_portfolio">Portfolio</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="title">
+            <h1>Hi, it's Hutman Danil</h1>
+            <a>Student of Cherkasy State Technological University</a>
+        </div>
+    </header>
+    <main>
+        <div class="main_part" id="main_about">
+            <h2>About</h2>
+            <a class="text">Hello. I am passionate about creating modern and effective websites. I specialize in the development of both frontend and backend parts of web applications. On this page you will find information about my projects, skills and achievements in the field of web development.<br/><br/></a>
+            <a class="text">Studying at the university at the department of information technologies and system, I specialize in the full cycle of web application development. My goal is to create high-quality websites and applications that provide a great user experience and meet modern technology standards.</a>
+        </div>
+        <div class="main_part" id="main_skills">
+            <h2 id="skills">Skills</h2>
+            <div class="skills_content">
+                <div id="face">
+                    <img src="img/img_face.png">
+                </div>
+                    <div class="skills">
+                        <div class="names_skill">
+                            <h3>Profile</h3>
+                            <h3>Front-end Dev</h3>
+                            <h3>Tools</h3>
+                            <h3>Back-end Dev</h3>
+                            <h3>Tools</h3>
+                        </div>
+                        <div class="value_skill">
+                            <a>Front-end Developer, Back-end Developer</a>
+                            <a><progress max="100" value="80"></progress></a>
+                            <a>HTML, CSS</a>
+                            <a><progress max="100" value="40"></progress></a>
+                            <a>Python, JavaScript</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="main_part" id="main_portfolio">
+            <h2>Portfolio</h2>
+            <div id="portfolio_content">
+                <div class="portfolio_conteiner">
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <div class="description">
+                                    <h3>Portfolio site</h3>
+                                    <a>My first site created while studying the discipline "Creation of web sites".</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="description">
+                                    <h3>Formatted table</h3>
+                                    <a>My second site created while studying the discipline "Creation of web sites".</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="description">
+                                    <h3>Main page of the site</h3>
+                                    <a>My third site created while studying the discipline "Creation of web sites".</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="change_portfolio_pc">
+                        <a id="prev" class="but"></a>
+                        <a id="next" class="but"></a>
+                    </div>
+                </div>
+                <div class="carousel_1">
+                    <div class="carousel-inner_1">
+                        <div class="carousel-item">
+                            <div class="gallery">
+                                <a href="pages/first_site.html"><img src="img/first_site.png"></a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="gallery">
+                                <a href="pages/second_site.html"><img src="img/second_site.png"></a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="gallery">
+                                <a href="pages/third_site.html"><img src="img/third_site.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="contacts">
+        <div>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="contacts">
+            <div>
+                <a>Dribble</a>
+                <a>Behabce</a>
+                <a>CodePen</a>
+                <a href="https://github.com/HutmanD">GitHub</a>
+                <a>Medium</a>
+            </div>
+            <div>
+                <a>Linkedln</a>
+                <a>Facebook</a>
+                <a>Instagram</a>
+                <a>Twiter</a>
+            </div>
+            <div>
+                <a>daniahutman@gmail.com</a>
+                <a>+38 098 9430310</a>
+            </div>
+        </div>
+    </footer>
+    <div id="button_up">
+        <a class="but"></a>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

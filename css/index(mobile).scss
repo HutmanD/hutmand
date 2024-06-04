@@ -1,0 +1,342 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Libre Franklin;
+  margin: 0;
+  width: 100%;
+}
+  
+header {
+  position: static;
+  top: 0;
+  color: #FFFAF2;
+  background-image: url(/img/header_img.png);
+  background-size: cover;
+  padding: 2% 5%;
+  height: 275px;
+}
+.menu_mobi{
+  background-color: rgba(255, 162, 0, 0.5);
+  top: 0;
+  height: 275px;
+  padding: 2%;
+  width: max-content;
+  position: absolute;
+  visibility: visible;
+  display: flex;
+  flex-direction: row;
+  left: -80px;
+}
+@keyframes open_menu{
+  from{left: -80px;}
+  to{left: 0;}
+}
+.menu_mobi:active{
+  animation-name: open_menu;
+  animation-duration: 1s;
+  left: 0;
+}
+.menu_mobi div{
+  padding-right: 10px;
+}
+.menu_mobi ul{
+  list-style: none;
+  padding-left: 10px;
+}
+.menu_mobi ul li{
+  list-style: none;
+  padding-bottom: 10px;
+}
+.menu_mobi ul li a{
+  text-decoration: none;
+  color: #FFFAF2;
+}
+.headernav_pc {
+  padding: 0;
+  visibility: collapse;
+  height: 0;
+  width: 0;
+}
+.headernav_mobile{
+  visibility: visible;
+  padding-top:36px;
+  display: flex;
+  justify-content: flex-start;
+}
+.headernav_mobile div{
+  display: inline;
+  width: 100%;
+  text-align: center;
+}
+#menu_mobile{
+  font-family: Segoe MDL2 Assets;
+  line-height: 24px;
+  font-size: 24px;
+}
+
+@keyframes open_menu{
+  from{left: -114px;}
+  to {left: 0;}
+}
+
+#menu_mobile:hover{
+  animation-name: open_menu;
+  animation-duration: 2s;
+}
+#logo {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.09px;
+}
+
+.menu {
+  font-size: 18px;
+  line-height: 21.82px;
+}
+
+.menu ul {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+}
+
+.menu ul li {
+  padding-left: 5vw;
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #FFFAF2;
+}
+
+.title {
+  padding: 0 4vw;
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 24.24  px;
+}  
+
+.title a {
+  font-size: 13px;
+  line-height: 15.76px;
+}
+
+.main_part {
+  padding: 8vh 12vw 4vh;
+}
+  
+h2 {
+  font-size: 24px;
+  line-height: 29.09px;
+  padding-bottom: 4vh;
+  text-align: center;
+}
+  
+.text {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  padding-bottom: 1vh;
+}
+ 
+#main_skills {
+  background-color: #FFFAF2;
+}
+
+.skills_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.skills_content div {
+  width: 100%;
+}
+.skills{
+  display: flex;
+  flex-direction: row;
+} 
+#face {
+  margin-right: 5vw;
+}
+  
+#face img {
+  width: 224px;
+}
+ 
+.names_skill h3:first-child {
+  padding-bottom: 5vh;
+}
+.names_skill{
+  text-align: left;
+}
+.value_skill{
+  text-align: left;
+}
+  
+.names_skill h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+  
+.value_skill * {
+  display: block;
+  margin: 2vh 0 0 0;
+}
+  
+.value_skill a {
+  height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+}
+ 
+.value_skill a:first-child {
+  padding-bottom: 5vh;
+}
+ 
+h3 {
+  margin: 2vh 0 0 0;
+  line-height: 29.09px;
+  font-size: 24px;
+}
+  
+progress {
+  height: 24px;
+  width: 100%;
+  -webkit-appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: rgb(236, 215, 175);
+}
+
+progress::-webkit-progress-value {
+  background-color: rgba(255, 162, 0, 0.5);
+}
+
+.portfolio_conteiner {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 2vh;
+}
+.description h3 {
+  padding-bottom: 2vh;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.description a {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+#portfolio_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+#change_portfolio_pc {
+  visibility: collapse;
+  width: 0;
+  height: 0;
+}
+#change_portfolio_mobi {
+  visibility: collapse;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  justify-content: center;
+}
+  
+.gallery img {
+  width: 50vw;
+}
+  
+.carousel {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  height: max-content;
+}
+.carousel-item {
+  flex: 0 0 100%;
+  height: 200px;
+}
+
+.carousel_1 {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-inner_1 {
+  display: flex;
+  height: 100%;
+}
+
+.but {
+  font-family: Segoe MDL2 Assets;
+  font-size: 24px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #333333;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #FFFAF2;
+  padding: 8vh 20vw;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+  
+.contacts div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding-bottom: 3vh;
+}
+  
+.contacts div:not(div:last-child) {
+  padding-right: 10vw;
+}
+  
+.contacts a {
+  font-size: 18px;
+  line-height: 21.82px;
+  padding-bottom: 1vh;
+}
+  
+#button_up {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  cursor: pointer;
+}
+  
